@@ -48,7 +48,7 @@ void main() {
     "age": 22,
     "phone_no": 9898989898,
     "house_no": 12
-  }; // map of string an integer
+  }; // map of string and integer
   print("Map : $map");
   print("Type of map is : ${map.runtimeType}");
 
