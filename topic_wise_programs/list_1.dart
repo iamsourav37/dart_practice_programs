@@ -29,4 +29,19 @@ void main() {
   print(map1[0]);
   print(map1[2]);
   print(map1);
+
+  List<int> intList = [11, 23, 21, 33, 45, 65];
+
+  var temp = intList.any((element) => element % 2 == 0); // any method
+  if (temp)
+    print("intList contains atleast one even number");
+  else
+    print("intList does not contain any even number");
+
+  print("element at 4 is : ${intList.elementAt(4)}");
+
+  var temp2 = intList.every((element) =>
+      element % 2 ==
+      0); // check every element is even or not using every method
+  print(temp2);
 }
